@@ -7,7 +7,7 @@ from datetime import datetime
 fake = Factory.create()
 record_size = raw_input("Enter how many records of addresses this program should generate: ")
 
-print("Propagating " + record_size + " addresses...")
+print("Generating " + record_size + " addresses...")
 startTime = datetime.now()
 record_size = int(record_size)
 text_file = open("PropagatedAddresses.txt", "w")
